@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive | Manas Jain</title>
+    <meta name="description" content="Manas Jain - Archive of previous research projects, student activities, and website history.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">MJ</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#past-research">Research</a></li>
+                <li><a href="#clubs">Clubs & Activities</a></li>
+                <li><a href="#past-internships">Internships</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Archive Header -->
+    <section class="archive-hero">
+        <div class="section-container">
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to main site</a>
+            <h1 class="archive-title">Archive</h1>
+            <p class="archive-subtitle">
+                A collection of my earlier research projects, student activities at IIT Bombay,
+                past internships, and a timeline of key milestones.
+            </p>
+        </div>
+    </section>
+
+    <!-- Past Research Projects -->
+    <section id="past-research" class="section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number"><i class="fas fa-flask"></i></span> Research Projects at IIT Bombay
+            </h2>
+            <div class="experience-grid">
+
+                <div class="research-card revealed">
+                    <div class="research-card-header">
+                        <div class="exp-card-meta">
+                            <span class="exp-date">Jul 2020 &mdash; Jun 2021</span>
+                        </div>
+                        <h3 class="research-title">Natural Answer Generation (Bachelor Thesis)</h3>
+                        <p class="research-advisor">
+                            <a href="https://www.cse.iitb.ac.in/~pb/" target="_blank">Prof. Pushpak Bhattacharyya</a> &
+                            <a href="https://scholar.google.co.in/citations?user=JErzXDcAAAAJ" target="_blank">Prof. Sriparna Saha</a>
+                            &mdash; CFILT Lab, IIT Bombay &middot; In collaboration with LG Soft India
+                        </p>
+                    </div>
+                    <div class="exp-card-body">
+                        <ul>
+                            <li>Developed a system for generating full-length natural language answers from factoid answers using grammar correction techniques</li>
+                            <li>Industry collaboration with LG Soft India AI and R&D team; managed and guided annotators in dataset creation</li>
+                            <li>Published at <strong>ICON '24 (Main Track)</strong></li>
+                        </ul>
+                        <div class="pub-links" style="margin-top: 1rem;">
+                            <a href="data/arxiv_nag_paper.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+                            <a href="data/BTP_report_Natural_answer_generation___2021.pdf"><i class="fas fa-book"></i> Thesis</a>
+                            <a href="data/ManasJain_BTP-2_Final-presentation(19 th Jun 2021).pdf"><i class="fas fa-desktop"></i> Slides</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-card revealed">
+                    <div class="research-card-header">
+                        <div class="exp-card-meta">
+                            <span class="exp-date">Spring 2021</span>
+                        </div>
+                        <h3 class="research-title">Speech-Driven Facial Animation using Temporal GANs</h3>
+                        <p class="research-advisor">
+                            <a href="https://www.cse.iitb.ac.in/~pjyothi/" target="_blank">Prof. Preethi Jyothi</a>, CSE &mdash; IIT Bombay
+                            <span style="color: var(--color-text-secondary); font-size: 0.85rem;">&middot; Course Project &mdash; Automatic Speech Recognition</span>
+                        </p>
+                    </div>
+                    <div class="exp-card-body">
+                        <ul>
+                            <li>Built a Temporal GAN model to generate speech-driven facial animations, achieving 23.1 PSNR on GRID dataset</li>
+                        </ul>
+                        <div class="pub-links" style="margin-top: 1rem;">
+                            <a href="https://github.com/Bavish2201/Speech-Driven-Facial-Animation" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-card revealed">
+                    <div class="research-card-header">
+                        <div class="exp-card-meta">
+                            <span class="exp-date">2020 &mdash; 2021</span>
+                        </div>
+                        <h3 class="research-title">Multilingual Relation Extraction</h3>
+                        <p class="research-advisor">
+                            Prof. Soumen Chakraborty, CSE &mdash; IIT Bombay
+                        </p>
+                    </div>
+                    <div class="exp-card-body">
+                        <ul>
+                            <li>Fine-tuned multilingual language models (mBERT, XLM-RoBERTa) on a custom English relation extraction dataset to classify relations across languages</li>
+                        </ul>
+                        <div class="pub-links" style="margin-top: 1rem;">
+                            <a href="https://github.com/manasjain26/R_BERT-on-custom-dataset" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-card revealed">
+                    <div class="research-card-header">
+                        <div class="exp-card-meta">
+                            <span class="exp-date">2020</span>
+                        </div>
+                        <h3 class="research-title">Neural Cross-lingual Summarization: English to Hindi</h3>
+                        <p class="research-advisor">
+                            <a href="https://www.cse.iitb.ac.in/~pb/" target="_blank">Prof. Pushpak Bhattacharyya</a>, CSE &mdash; IIT Bombay
+                            <span style="color: var(--color-text-secondary); font-size: 0.85rem;">&middot; Course Project &mdash; CS626 NLP</span>
+                        </p>
+                    </div>
+                    <div class="exp-card-body">
+                        <ul>
+                            <li>Implemented a transformer-based architecture for cross-lingual summarization and created a novel dataset for English to Hindi summarization</li>
+                        </ul>
+                        <div class="pub-links" style="margin-top: 1rem;">
+                            <a href="https://github.com/manasjain26/CS626_NLP/tree/master/CS626-course_project" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="data/Final Project Presentation_ Cross-lingual Summarization.pdf"><i class="fas fa-desktop"></i> Slides</a>
+                            <a href="data/CS626_Course_Project__Cross_Lingual_Summarization.pdf"><i class="fas fa-file-alt"></i> Report</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Clubs & Activities at IIT Bombay -->
+    <section id="clubs" class="section section-alt">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number"><i class="fas fa-users"></i></span> Clubs & Activities at IIT Bombay
+            </h2>
+            <div class="archive-clubs-grid">
+
+                <div class="archive-club-card revealed">
+                    <div class="archive-club-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="archive-club-content">
+                        <h3>Team SeDriCa &mdash; Self-Driving Car</h3>
+                        <p class="archive-club-role">Technical Team Member &middot; Path Planning Subsystem</p>
+                        <p class="archive-club-date">Oct 2018 &mdash; Sep 2019</p>
+                        <p class="archive-club-desc">Worked on developing a fully autonomous car for Indian roads. Implemented Bidirectional RRT path planning algorithms in ROS/C++. Finalist in the Mahindra RISE Driverless Car Challenge.</p>
+                    </div>
+                </div>
+
+                <div class="archive-club-card revealed">
+                    <div class="archive-club-icon">
+                        <i class="fas fa-flag-checkered"></i>
+                    </div>
+                    <div class="archive-club-content">
+                        <h3>IIT Bombay Racing</h3>
+                        <p class="archive-club-role">Assistant Manager</p>
+                        <p class="archive-club-date">May 2018 &mdash; Apr 2019</p>
+                        <p class="archive-club-desc">Part of the electric vehicle racing team at IIT Bombay, contributing to administrative and technical operations.</p>
+                    </div>
+                </div>
+
+                <div class="archive-club-card revealed">
+                    <div class="archive-club-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="archive-club-content">
+                        <h3>Techfest, IIT Bombay</h3>
+                        <p class="archive-club-role">Events Coordinator &mdash; Robowars</p>
+                        <p class="archive-club-date">May 2018 &mdash; Dec 2018</p>
+                        <p class="archive-club-desc">Coordinated the Robowars event at Techfest 2018, one of Asia's largest science and technology festivals.</p>
+                    </div>
+                </div>
+
+                <div class="archive-club-card revealed">
+                    <div class="archive-club-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="archive-club-content">
+                        <h3>Teaching Assistant &mdash; MA 106 Linear Algebra</h3>
+                        <p class="archive-club-role">Undergraduate TA</p>
+                        <p class="archive-club-date">Mar 2021 &mdash; May 2021</p>
+                        <p class="archive-club-desc">Conducted weekly tutorial discussions and doubt-solving sessions for a batch of 55 students. Assisted in conducting online exams and quiz evaluations.</p>
+                    </div>
+                </div>
+
+                <div class="archive-club-card revealed">
+                    <div class="archive-club-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="archive-club-content">
+                        <h3>Research Week with Google AI</h3>
+                        <p class="archive-club-role">Natural Language Understanding Track</p>
+                        <p class="archive-club-date">Feb 8&ndash;11, 2022</p>
+                        <p class="archive-club-desc">Shortlisted and participated in Research Week with Google in the NLU track, collaborating with Google AI researchers.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Internships -->
+    <section id="past-internships" class="section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number"><i class="fas fa-briefcase"></i></span> Earlier Internships
+            </h2>
+            <div class="experience-grid">
+
+                <div class="exp-card revealed">
+                    <div class="exp-card-header">
+                        <div class="exp-card-meta">
+                            <span class="exp-date">May &mdash; Jul 2020</span>
+                        </div>
+                        <h3 class="exp-role">Data Science Intern</h3>
+                        <p class="exp-company">
+                            <a href="https://www.prodigaltech.com/" target="_blank">Prodigal</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="exp-card revealed">
+                    <div class="exp-card-header">
+                        <div class="exp-card-meta">
+                            <span class="exp-date">May &mdash; Jul 2019</span>
+                        </div>
+                        <h3 class="exp-role">Conversational AI Intern</h3>
+                        <p class="exp-company">
+                            <a href="https://www.samespace.com/" target="_blank">Samespace</a>
+                        </p>
+                        <p class="exp-location"><i class="fas fa-map-marker-alt"></i> Mumbai, India</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="section section-alt">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number"><i class="fas fa-clock"></i></span> Timeline
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Sept 2025</span>
+                        <p>Started MS in Data Science at UC San Diego</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2025</span>
+                        <p>Joined Prof. Rose Yu's Spatiotemporal ML Lab as a Graduate Student Researcher</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Mar 2024</span>
+                        <p>Joined Microsoft AI as Data & Applied Scientist 2 on the Bing Autosuggest team</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Feb 2023</span>
+                        <p>Moved to Bangalore &mdash; the Silicon Valley & AI capital of India</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Dec 2022</span>
+                        <p>Started working as Associate ML Scientist at <a href="https://www.wadhwaniai.org/">Wadhwani AI</a></p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Feb 2022</span>
+                        <p>Attended <a href="https://sites.google.com/view/researchweek2022/home">Research Week with Google</a> in the NLU track</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2021</span>
+                        <p>Graduated from IIT Bombay with double minors</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2021</span>
+                        <p>Started first job as a Data Scientist at <a href="https://hilabs.com/">HiLabs</a></p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2021</span>
+                        <p>Successfully defended Bachelor thesis on Natural Answer Generation</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2021</span>
+                        <p>Final semester done, AI & DS minor completed. SPI &mdash; 9.60/10</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2020</span>
+                        <p>AI research intern at <a href="https://www.daikin.com/about/corporate/tic">Daikin Technology and Innovation Center</a> in Osaka, Japan</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2019</span>
+                        <p>Interned at <a href="https://www.samespace.com/">Samespace</a>, Mumbai</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2018</span>
+                        <p>Started Computer Science minor at IIT Bombay</p>
+                    </div>
+                </div>
+                <div class="timeline-item revealed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2017</span>
+                        <p>Started the journey at IIT Bombay</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="mailto:maj039@ucsd.edu" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://scholar.google.co.in/citations?user=j4QKjTAAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://github.com/manasjain26" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/manas-jain-335305150/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/manasja78413772" target="_blank" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/manas.jain.566/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-text">
+                &copy; 2026 Manas Jain &middot; <a href="index.html">Back to main site</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
